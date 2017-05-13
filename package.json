@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/gemersonhenry/app-web-vue2/issues"
   },
-  "homepage": "https://github.com/gemersonhenry/app-web-vue2#readme"
+  "homepage": "https://github.com/gemersonhenry/app-web-vue2#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.2",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0"
+  }
 }
