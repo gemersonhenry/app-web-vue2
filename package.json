@@ -1,0 +1,27 @@
+{
+  "name": "app-web-vue2",
+  "version": "1.0.0",
+  "description": "Primer proyecto",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gemersonhenry/app-web-vue2.git"
+  },
+  "keywords": [
+    "pug",
+    "sass",
+    "vue2"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gemersonhenry/app-web-vue2/issues"
+  },
+  "homepage": "https://github.com/gemersonhenry/app-web-vue2#readme"
+}

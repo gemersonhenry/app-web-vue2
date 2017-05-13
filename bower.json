@@ -1,0 +1,23 @@
+{
+  "name": "app-web-vue2",
+  "description": "Primer proyecto",
+  "main": "index.js",
+  "authors": [
+    "BZGemerson <henryingtel@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "pug",
+    "sass",
+    "vue2"
+  ],
+  "homepage": "https://github.com/gemersonhenry/app-web-vue2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ]
+}
