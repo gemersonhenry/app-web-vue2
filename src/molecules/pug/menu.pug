@@ -1,0 +1,14 @@
+include ../../atoms/pug/mixin-link.pug
+
+- 
+	var listItem = [
+		{ "text": "Home", "url": "/"}, 
+		{ "text": "Servicios", "url": "/"}, 
+		{ "text": "Productos", "url": "/"}, 
+		{ "text": "Contactenos", "url": "/"}
+	]
+
+ul.e-menu
+	each item in listItem
+		li.e-menu-item
+			+a(item.url, "e-menu-item-link", item.text)

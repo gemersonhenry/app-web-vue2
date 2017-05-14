@@ -1,1 +1,13 @@
+/* medidas consideradas para todas las páginas */
 $height-header: 80px;
+
+/* break points: para generar las vistas responsive */
+$bk-desktop: 1440px;
+$bk-laptop-m: 1280px;
+$bk-laptop-s: 1024px;
+$bk-tablet-l: 960px;
+$bk-tablet-m: 768px;
+$bk-tablet-s: 640px;
+$bk-mobile-l: 480px;
+$bk-modile-m: 320px;
+$bk-mobile-s: 240px; /* el porcentaje de uso es muy infimo, solo se coloca por concepto */
