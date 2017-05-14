@@ -1,0 +1,31 @@
+$h-header: $height-header;
+$h-content: 60px; /* altura de los elementos dentro del header */
+$h-padding-v: ($h-header - $h-content)/2; /* padding top y bottom en el header */
+$w-logo: 200px; /* ancho del logo de la pagina web */
+$w-login: 60px; /* ancho del cuadro login: el login es un cuadrado */
+
+.b-header {
+	background-color: lightgray;
+	height: $h-header;
+	width: 100%;
+	overflow: hidden;
+	&-logo, &-menu, &-login {
+		height: $h-content;
+		padding: $h-padding-v 0px;
+	}
+	&-logo {
+		padding-left: 20px;
+		width: $w-logo;
+		float: left;
+	}
+	&-menu {
+		padding-left: 20px;
+		float: left;
+		@import "../../molecules/sass/menu";
+	}
+	&-login {
+		padding-right: 20px;
+		width: $w-login;
+		float: right;
+	}
+}
